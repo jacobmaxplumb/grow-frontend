@@ -8,8 +8,8 @@
 
     <div class="login-form">
 
-        <input type="email" class="text-input--underbar" placeholder="Email" value="">
-        <input type="password" class="text-input--underbar" placeholder="Password" value="">
+        <input type="email" class="text-input--underbar" placeholder="Email" [(ngModel)]="user.username">
+        <input type="password" class="text-input--underbar" placeholder="Password" [(ngModel)]="user.password">
         <br><br>
         <ons-button modifier="large" class="login-button">Log In</ons-button>
         <br><br>
